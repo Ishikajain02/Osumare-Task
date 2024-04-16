@@ -3,7 +3,8 @@ import header1 from '../assets/Header image.png'
 
 const Header1 = () => {
   return (
-    <div className='flex flex-col w-[899px]    gap-8 mt-[291.5px] ml-[271px] items-center'>
+    <div className='items-center'>
+    <div className='flex flex-col w-[899px]    gap-8 mt-[183.5px] ml-[271px] items-center'>
     <div className='w-[899px]  flex flex-col height-[284px]  items-center'>
         <span className=' font-Montserrat flex font-medium leading-[72px]  items-center text-5xl line-height-72 '>Elevate Real Estate Success with Osumare's Digital Expertise</span>
         
@@ -11,9 +12,12 @@ const Header1 = () => {
        <button className=' flex w-[408px] h-[56px] rounded-[32px] gap-1 pt-[13px] pr-[136px] pb-[13px] pl-[136px] bg-colour2 '>Get Started</button>
    
     </div>
-    <img src={header1} className='flex'></img>
-
+    
+  
     </div>
+    <img src={header1} className='flex mt-[83.5px] ml-[322px] h-[538px] w-[796px] '></img>
+  </div>
+  
   )
 }
 

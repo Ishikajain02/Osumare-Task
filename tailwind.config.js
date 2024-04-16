@@ -14,7 +14,8 @@ module.exports = {
 
     },
     fontFamily: {
-      Montserrat:['Montserrat']
+      Montserrat:['Montserrat'],
+      OpenSans:['Open Sans']
      },
     colours:{
       "colour1":'#80BBFF',
