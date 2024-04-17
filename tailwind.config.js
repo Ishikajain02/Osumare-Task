@@ -21,17 +21,23 @@ module.exports = {
      },
     colours:{
       "colour1":'#80BBFF',
-      "colour2":'#0078FF'
+      "colour2":'#0078FF',
+      "co":'#C7C7C7',
+      "gradient":'#E6F1FE'
     },
     boxShadow: {
       '3xl': '-3 4px 16px 0px rgba(0, 0, 0, 0.04)',
+      '4xl': '0px 10px 44px 0 rgba(0, 0, 0, 0.1);'
     },
      letterSpacing: {
       
-      custom:'-0.02em'
-    }
+      custom:'-0.02em',
+      letter:'0.03em'
+    },
   
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
 
