@@ -15,11 +15,20 @@ module.exports = {
     },
     fontFamily: {
       Montserrat:['Montserrat'],
-      OpenSans:['Open Sans']
+      OpenSans:['Open Sans'],
+      Poppins:['Poppins'],
+      Inter:['Inter']
      },
     colours:{
       "colour1":'#80BBFF',
       "colour2":'#0078FF'
+    },
+    boxShadow: {
+      '3xl': '-3 4px 16px 0px rgba(0, 0, 0, 0.04)',
+    },
+     letterSpacing: {
+      
+      custom:'-0.02em'
     }
   
   },

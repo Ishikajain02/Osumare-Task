@@ -1,4 +1,5 @@
 import React from 'react'
+import ServiceCard from './ServiceCard'
 
 const Header3 = () => {
   return (
@@ -10,7 +11,8 @@ const Header3 = () => {
         
         </div>
         <div className='w-[1278px] h-[510px] gap-[30px]'>
-
+        <div><ServiceCard/>
+        </div>
         </div>
         </div>
     </div>
