@@ -11,7 +11,7 @@ import Footer from './Footer'
 
 const Body = () => {
   return (
-    <div className=' items-center flex flex-col  '>
+    <div className=' items-center flex flex-col  justify-center '>
         <Header1/>
         <Header2/>
         <Header3/>

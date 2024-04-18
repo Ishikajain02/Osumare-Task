@@ -7,7 +7,7 @@ import lighting from '../assets/lighting.png'
 const Header4 = () => {
   return (
     <div className=''>
-        <div className=' items-center flex  flex-col justify-center mt-[157.5px] h-[108px] w-[1278px] ml-[81px] gap-4'>
+        <div className=' items-center flex  flex-col justify-center mt-[157.5px] h-[108px] w-[1278px]  gap-4'>
             <h1 className='font-Montserrat font-bold text-[32px] flex leading-[48px] items-center'>
             Navigating Real Estate's Digital Landscape
             </h1>

@@ -23,11 +23,13 @@ module.exports = {
       "colour1":'#80BBFF',
       "colour2":'#0078FF',
       "co":'#C7C7C7',
-      "gradient":'#E6F1FE'
+      "gradient":'#E6F1FE',
+      unique:'#F8F8F8',
     },
     boxShadow: {
       '3xl': '-3 4px 16px 0px rgba(0, 0, 0, 0.04)',
-      '4xl': '0px 10px 44px 0 rgba(0, 0, 0, 0.1);'
+      '4xl': '0px 10px 44px 0 rgba(0, 0, 0, 0.1)',
+      '5xl': '0 20px 40px 0 rgba(0, 0, 0, 0.08)'
     },
      letterSpacing: {
       

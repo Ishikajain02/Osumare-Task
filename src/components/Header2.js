@@ -9,7 +9,7 @@ const Header2 = () => {
           </p>
         </div>
         <div className='flex flex-row'>
-            <img src={arrow} className='w-[507.12px] h-[342px] ml-[80px] mt-[83px]'></img>
+            <img src={arrow} className='w-[507.12px] h-[342px] mt-[83px]'></img>
             <div className='w-[733px] h-[385px] ml-[39.88px] mt-[64px] gap-8'>
                 <p className='font-Montserrat w-[646px] h-[96px] font-bold text-[32px] leading-[48px]'>Unlock the Potential of Digital Real Estate Excellence</p>
                 <p className='w-[733px] h-[180px] font-OpenSans font-normal text-2xl leading-9'>At Osumare, we understand that the real estate landscape demands a digital presence that aligns with the intricacies of property marketing. Our range of specialized services is meticulously designed to catapult your brand's success in the ever-evolving digital property market.</p>
