@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='w-[1280px] h-[713px] ml-[96px] gap-8 mt-[96px] flex flex-col items-center'>
      
         <div className='w-[1280px] h-[657px] rounded-[32px] linear-gradient-b'>
-        <div className='flex flex-row'>
+        <div className='flex flex-row w-[1280px] h-[657px] rounded-[32px]'>
           <div className='flex flex-col'>
             <div className='w-[365px] flex flex-col h-[160px] mt-[56px] ml-[43px] gap-4'>
                 <img src={logo} className='w-[124.2px] h-[72px] rounded-[4px]'></img>
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             </div>
         </div>
-        <div className='w-[72px] h-[304px] mt-[56px] ml-[653px] gap-8'>
+        <div className='w-[72px] h-[304px] mt-[56px] ml-[653px] gap-8 '>
           <h1 className='w-[72px] h-[48px] font-Montserrat font-bold text-2xl leading-[48px] items-center flex'>Menu</h1>
         </div>
         </div>
