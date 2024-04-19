@@ -10,6 +10,14 @@ module.exports = {
         'img': "url('../src/assets/background-complete.png')",
        // 'emp':"url('../src/assets/img/emp.png')"
     },
+    colours:{
+      "colour1":'#80BBFF',
+      "colour2":'#0078FF',
+      "co":'#C7C7C7',
+      "gradient":'#E6F1FE',
+      unique:'#F8F8F8',
+      "colo":'#706F7B'
+    },
 
 
     },

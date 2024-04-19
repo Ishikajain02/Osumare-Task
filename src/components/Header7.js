@@ -54,7 +54,7 @@ const Header7 = () => {
         </p>
       </div>
       <div className='flex flex-col items-center w-[1280px] h-[376.75px] pt-[0px] pl-[240px] pb-[0px] pr-[240px]  '>
-        <div className='shadow-text-shadow2'>
+        <div className='shadow-text-shadow2 '>
           <div className=' justify-between flex flex-row w-[800px] h-[68px] pt-[20px] pl-[45px] pb-[20px] pr-[45px] gap-[10px] '>
           <div className=' flex flex-row w-[706px] h-[28px] gap-[219px]'>
           <h1 className='w-[474px] h-[28px] font-Montserrat font-semibold text-lg leading-7'>
@@ -80,13 +80,14 @@ const Header7 = () => {
           </h1>
           <img src={down} className='h-[20px] w-[13px]'></img>
           </div>
-          <div className='w-[800px] h-[172.75px] pt-[28px] pl-[51px] pb-[27.75px] pr-[45px]'>
+          </div>
+          <div className='w-[800px] h-[172.75px] pt-[28px]  pl-[51px] flex items-center justify-center shadow-text-shadow2 pb-[27.75px] pr-[45px]'>
             <div className='w-[704px] h-[117px] items-center flex'>
-              <p className='font-OpenSans text-colo font-normal leading-6 text-2xl'>We believe in measurable results. Our data-driven approach means that every campaign's performance is tracked, analyzed, and refined for optimal outcomes. We provide regular reports that detail key metrics, giving you clear insights into how our strategies are driving growth for your brand.</p>
+              <p className='font-OpenSans text-colo font-normal leading-6 text-lg'>We believe in measurable results. Our data-driven approach means that every campaign's performance is tracked, analyzed, and refined for optimal outcomes. We provide regular reports that detail key metrics, giving you clear insights into how our strategies are driving growth for your brand.</p>
 
             </div>
 
-          </div>
+          
           </div>
           </div>
           </div>
