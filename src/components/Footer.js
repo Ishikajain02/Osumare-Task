@@ -2,13 +2,19 @@ import React from 'react'
 import logo from '../assets/logo.jpg'
 import vector from '../assets/Vector.png'
 import vector1 from '../assets/Vector (1).png'
+import icon1 from '../assets/pinterest-fill.png'
+import icon2 from '../assets/pinterest-fill (1).png'
+import icon3 from '../assets/pinterest-fill (2).png'
+import icon4 from '../assets/pinterest-fill (3).png'
+import icon5 from '../assets/whatsapp-fill.png'
+import icon6 from '../assets/whatsapp-fill (1).png'
 const Footer = () => {
   return (
 
-    <div className='w-[1280px] h-[713px] ml-[96px] gap-8 mt-[96px] flex flex-col items-center'>
+    <div className='w-[1280px] h-[713px]  gap-8 mt-[96px] flex flex-col items-center'>
      
-        <div className='w-[1280px] h-[657px] rounded-[32px] linear-gradient-b'>
-        <div className='flex flex-row w-[1280px] h-[657px] rounded-[32px]'>
+        <div className='w-[1280px] h-[657px] rounded-[32px] linear-gradient-b flex justify-normal'>
+        <div className='flex flex-row w-[1280px] h-[657px] rounded-[32px] justify-between'>
           <div className='flex flex-col'>
             <div className='w-[365px] flex flex-col h-[160px] mt-[56px] ml-[43px] gap-4'>
                 <img src={logo} className='w-[124.2px] h-[72px] rounded-[4px]'></img>
@@ -33,9 +39,36 @@ const Footer = () => {
               </div>
             </div>
             </div>
-        </div>
-        <div className='w-[72px] h-[304px] mt-[56px] ml-[653px] gap-8 '>
+        
+        <div className='w-[72px] h-[304px] flex flex-col  mt-[56px] ml-[245px] gap-8 '>
           <h1 className='w-[72px] h-[48px] font-Montserrat font-bold text-2xl leading-[48px] items-center flex'>Menu</h1>
+          <div className='w-[67px] h-[224px] gap-4 justify-between flex flex-col'>
+            <p className='font-OpenSans font-medium text-base leading-6 flex '>Home</p>
+            <p className='font-OpenSans font-medium text-base leading-6 flex '>About</p>
+            <p className='font-OpenSans font-medium text-base leading-6 flex '>Services</p>
+            <p className='font-OpenSans font-medium text-base leading-6 flex '>Work</p>
+         
+          </div>
+     
+     
+        </div>
+        <div className='w-[280px] h-[176px] ml-[240px] gap-6 mt-[56px]'>
+        <h1  className='w-[75px] h-[48px] font-Montserrat font-bold text-2xl leading-[48px] '>Social</h1>
+        <div className='w-[280px] h-[104px] flex '>
+          <div className='flex flex-row '>
+        <img src={icon1} className='w-[40px] h-[40px] rounded-[32px]'></img>
+        <img src={icon2} className='w-[40px] h-[40px] rounded-[32px] '></img>
+        <img src={icon3} className='w-[40px] h-[40px] rounded-[32px] '></img>
+        <img src={icon4} className='w-[40px] h-[40px] rounded-[32px]'></img>
+        </div>
+        <div className='flex flex-row '>
+        <img src={icon5} className='w-[40px] h-[40px] rounded-[32px]'></img>
+        </div>
+        
+        </div>
+
+
+        </div>
         </div>
         </div>
         <h3 className='w-[314px] h-[24px] font-Montserrat justify-content font-medium text-base leading-6 tracking-letter'>© 2023 Osumare. All rights reserved.</h3>

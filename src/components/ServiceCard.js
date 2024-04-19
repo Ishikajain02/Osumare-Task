@@ -9,9 +9,9 @@ import group7 from '../assets/Group 117 (5).png'
 import group8 from '../assets/Group 117 (6).png'
 const ServiceCard = () => {
   return (
-    <div className="w-[1278px] h-[510px] gap-[30px] justify-between">
+    <div className="w-[1278px] h-[510px] gap-[30px] justify-between flex flex-col">
      <div className='flex flex-row justify-between'>
-      <div className=' shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
+      <div className=' bg-white shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
     <div className='w-[265px] h-[83px] gap-2 items-center flex flex-col justify-center '>
     <img className='w-[52px] h-[52px]' src={group1}></img>
     <h1 className='w-[265px] h-[23px] font-Montserrat justify-center items-center font-bold text-lg leading-[22.5px] text-center'>Automotive SEO</h1>
@@ -22,7 +22,7 @@ const ServiceCard = () => {
     
 
 
-    <div className='shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
+    <div className='shadow-3xl bg-white w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
     <div className='w-[265px] h-[83px] gap-2 items-center flex flex-col justify-center '>
     <img className='w-[52px] h-[52px]' src={group2}></img>
     <h1 className='w-[265px] h-[23px] font-Montserrat justify-center items-center font-bold text-lg leading-[22.5px] text-center'>Automotive SEO</h1>
@@ -33,7 +33,7 @@ const ServiceCard = () => {
     </div>
     
 
-    <div className='shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
+    <div className='shadow-3xl bg-white w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
     <div className='w-[265px] h-[83px] gap-2 items-center flex flex-col justify-center '>
     <img className='w-[52px] h-[52px]' src={group3}></img>
     <h1 className='w-[265px] h-[23px] font-Montserrat justify-center items-center font-bold text-lg leading-[22.5px] text-center'>Automotive SEO</h1>
@@ -48,7 +48,7 @@ const ServiceCard = () => {
 
 
 
-    <div className='shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
+    <div className='shadow-3xl bg-white w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
     <div className='w-[265px] h-[83px] gap-2 items-center flex flex-col justify-center '>
     <img className='w-[52px] h-[52px]' src={group4}></img>
     <h1 className='w-[265px] h-[23px] font-Montserrat justify-center items-center font-bold text-lg leading-[22.5px] text-center'>Automotive SEO</h1>
@@ -68,7 +68,7 @@ const ServiceCard = () => {
 
 
     <div className='flex flex-row justify-between'>
-      <div className=' shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
+      <div className=' shadow-3xl bg-white w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
     <div className='w-[265px] h-[83px] gap-2 items-center flex flex-col justify-center '>
     <img className='w-[52px] h-[52px]' src={group5}></img>
     <h1 className='w-[265px] h-[23px] font-Montserrat justify-center items-center font-bold text-lg leading-[22.5px] text-center'>Automotive SEO</h1>
@@ -79,7 +79,7 @@ const ServiceCard = () => {
     
 
 
-    <div className='shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
+    <div className='shadow-3xl  w-[297px] bg-white h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
     <div className='w-[265px] h-[83px] gap-2 items-center flex flex-col justify-center '>
     <img className='w-[52px] h-[52px]' src={group6}></img>
     <h1 className='w-[265px] h-[23px] font-Montserrat justify-center items-center font-bold text-lg leading-[22.5px] text-center'>Automotive SEO</h1>
@@ -90,7 +90,7 @@ const ServiceCard = () => {
     </div>
     
 
-    <div className='shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
+    <div className='shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] bg-white pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
     <div className='w-[265px] h-[83px] gap-2 items-center flex flex-col justify-center '>
     <img className='w-[52px] h-[52px]' src={group7}></img>
     <h1 className='w-[265px] h-[23px] font-Montserrat justify-center items-center font-bold text-lg leading-[22.5px] text-center'>Automotive SEO</h1>
@@ -105,7 +105,7 @@ const ServiceCard = () => {
 
 
 
-    <div className='shadow-3xl  w-[297px] h-[239px] rounded-lg pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
+    <div className='shadow-3xl  w-[297px] h-[239px] rounded-lg bg-white pt-[32px] pr-[16px] pb-[32px] flex items-center flex-col pl-[16px] gap-4'>
     <div className='w-[265px] h-[83px] gap-2 items-center flex flex-col justify-center '>
     <img className='w-[52px] h-[52px]' src={group8}></img>
     <h1 className='w-[265px] h-[23px] font-Montserrat justify-center items-center font-bold text-lg leading-[22.5px] text-center'>Automotive SEO</h1>

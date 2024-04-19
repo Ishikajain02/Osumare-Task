@@ -15,7 +15,7 @@ module.exports = {
       "colour2":'#0078FF',
       "co":'#C7C7C7',
       "gradient":'#E6F1FE',
-      unique:'#F8F8F8',
+      'unique':'#F9F9F9',
       "colo":'#706F7B'
     },
 

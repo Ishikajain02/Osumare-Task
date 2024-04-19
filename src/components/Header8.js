@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header8 = () => {
   return (
-    <div className='w-[1440px] h-[900px] mt-[160px] flex flex-col items-center justify-center '>
+    <div className='w-[1440px]  h-[900px] mt-[160px] flex flex-col items-center justify-center '>
         <div className='w-[752px] h-[136px] mt-[143px]  gap-4 flex flex-col items-center justify-center'>
         <h1 className='w-[752px] h-[48px] font-Montserrat font-extrabold text-[32px] leading-[48px] flex items-center justify-center'>Connect with Our Digital Marketing Experts</h1>
         <h3 className='w-[752px] h-[72px] font-OpenSans font-normal text-2xl leading-9 flex items-center text-center'>Reach Out for Tailored Strategies and Results-Driven Solutions. Let's Elevate Your Online Presence Together</h3>
