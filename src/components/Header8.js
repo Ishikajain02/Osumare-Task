@@ -37,8 +37,8 @@ const Header8 = () => {
                 </div>
                 <div className='w-[380px] h-[248px] gap-8'>
                     <div>
-                        <h1 className='w-[71px] h-[24px] font-Inter font-semibold leading-6 items-center text-base'>Message</h1>
-                        <input className='w-[380px] h-[235px] rounded border-[1px] pt-[8px] pl-[12px] pb-[8px] pr-[12px] gap-[10px] bg-co ' placeholder='Enter your message'></input>
+                        <h1 className='w-[71px] h-[24px] font-Inter font-semibold leading-6  text-base'>Message</h1>
+                        <input className='w-[380px] h-[235px] rounded  flex border-[1px] pt-[8px] pl-[12px] pb-[8px] pr-[12px] gap-[10px] bg-co ' placeholder='Enter your message'></input>
                     </div>
                 </div>
 

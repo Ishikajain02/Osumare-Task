@@ -11,9 +11,9 @@ import icon6 from '../assets/whatsapp-fill (1).png'
 const Footer = () => {
   return (
 
-    <div className='w-[1280px] h-[713px]  gap-8 mt-[96px] flex flex-col items-center'>
+    <div className='w-[1280px] h-[713px]   gap-8 mt-[96px] flex flex-col items-center'>
      
-        <div className='w-[1280px] h-[657px] rounded-[32px] linear-gradient-b flex justify-normal'>
+        <div className='w-[1280px] h-[657px]  bg-blue-100  rounded-[32px] linear-gradient-b flex justify-normal'>
         <div className='flex flex-row w-[1280px] h-[657px] rounded-[32px] justify-between'>
           <div className='flex flex-col'>
             <div className='w-[365px] flex flex-col h-[160px] mt-[56px] ml-[43px] gap-4'>
@@ -42,7 +42,7 @@ const Footer = () => {
         
         <div className='w-[72px] h-[304px] flex flex-col  mt-[56px] ml-[245px] gap-8 '>
           <h1 className='w-[72px] h-[48px] font-Montserrat font-bold text-2xl leading-[48px] items-center flex'>Menu</h1>
-          <div className='w-[67px] h-[224px] gap-4 justify-between flex flex-col'>
+          <div className='w-[67px] h-[224px] gap-4  flex flex-col'>
             <p className='font-OpenSans font-medium text-base leading-6 flex '>Home</p>
             <p className='font-OpenSans font-medium text-base leading-6 flex '>About</p>
             <p className='font-OpenSans font-medium text-base leading-6 flex '>Services</p>
@@ -52,17 +52,18 @@ const Footer = () => {
      
      
         </div>
-        <div className='w-[280px] h-[176px] ml-[240px] gap-6 mt-[56px]'>
-        <h1  className='w-[75px] h-[48px] font-Montserrat font-bold text-2xl leading-[48px] '>Social</h1>
-        <div className='w-[280px] h-[104px] flex '>
-          <div className='flex flex-row '>
-        <img src={icon1} className='w-[40px] h-[40px] rounded-[32px]'></img>
+        <div className='w-[280px] h-[176px] flex flex-col ml-[240px] gap-6 mt-[56px]'>
+        <h1  className='w-[75px]  ml-[4px] h-[48px] font-Montserrat font-bold text-2xl leading-[48px] '>Social</h1>
+        <div className='w-[280px] h-[104px] flex flex-col gap-6 '>
+          <div className='flex flex-row space-x-2'>
+        <img src={icon1} className=' w-[40px] h-[40px] rounded-[32px]'></img>
         <img src={icon2} className='w-[40px] h-[40px] rounded-[32px] '></img>
         <img src={icon3} className='w-[40px] h-[40px] rounded-[32px] '></img>
         <img src={icon4} className='w-[40px] h-[40px] rounded-[32px]'></img>
         </div>
-        <div className='flex flex-row '>
+        <div className='flex flex-row space-x-2'>
         <img src={icon5} className='w-[40px] h-[40px] rounded-[32px]'></img>
+        <img src={icon6} className='w-[40px] h-[40px] rounded-[32px]'></img>
         </div>
         
         </div>
